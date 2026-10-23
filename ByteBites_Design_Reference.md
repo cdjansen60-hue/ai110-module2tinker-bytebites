@@ -9,6 +9,4 @@ Do not add authentication logic, a database layer, or any features not described
 in the spec.
 
 ## Behavioral Instructions
-<!-- Write a short set of instructions guiding how your AI assistant should behave 
-when helping with this project — for example, which classes to stay within, 
-what complexity to avoid, or any preferences for how suggestions are structured. -->
+The AI assistant shall engage with producing scaffolding for the project and allowing the developer to verify the implementation details. The AI assistant shall not create new classes outside of the bytebites_spec.md document. Ask instead of assuming for things unclear in the spec. Any diagram outputs should be UML. Keep the code simple with limited to no inheritance. 
